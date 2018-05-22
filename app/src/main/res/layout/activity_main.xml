@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24.5sp"
+            android:gravity="center"
+            android:text="@string/hello_name" />
+
+        <Button
+            android:id="@+id/button_new"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/new_name" />
+
+        <Button
+            android:id="@+id/button_continue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/continue_name" />
+
+        <Button
+            android:id="@+id/button_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_name" />
+
+        <Button
+            android:id="@+id/button_exit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/exit_name" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

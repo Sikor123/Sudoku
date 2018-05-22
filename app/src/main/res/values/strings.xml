@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Sudoku</string>
+    <string name="hello_name">Android Sudoku</string>
+    <string name="new_name">nowa gra</string>
+    <string name="continue_name">kontynuuj grę</string>
+    <string name="about_name">informacje</string>
+    <string name="exit_name">wyjście</string>
+
+    <string name="title_information">Informacje o grze</string>
+    <string name="information">Sudoku – łamigłówka, której celem jest wypełnienie diagramu 9 × 9 w taki sposób, aby w każdym wierszu, w każdej kolumnie i w każdym z dziewięciu pogrubionych kwadratów 3 × 3 (zwanych „blokami” lub „podkwadratami”) znalazło się po jednej cyfrze od 1 do 9.</string>
+    <string name="etykieta_ustawienia">Ustawienia...</string>
+    <string name="tytul_ustawienia">Ustawienia gry</string>
+    <string name="skrot_ustawienia">s</string>
+    <string name="tytul_muzyka">Muzyka</string>
+    <string name="podsumowanie_muzyka">odtwarza muzyke w tle</string>
+    <string name="tytul_podpowiedzi">Podpowiedzi</string>
+    <string name="podsumowanie_podpowiedzi">Wyświetla podpowiedzi w trakcie gry</string>
+
+    <string name="tytul_nowa_gra">Poziom trudości</string>
+    <string name="etykieta_latwy">Łatwy</string>
+    <string name="etykieta_sredni">Średni</string>
+    <string name="etykieta_trudny">Trudny</string>
+
+    <string name="tytul_gra">Gra</string>
+    <string name="etykieta_brak_ruchow">Brak ruchów</string>
+    <string name="tytul_klawiatura">Klawiatura</string>
+
+</resources>
